@@ -1,0 +1,30 @@
+.TotalContainer {
+  border: 1px solid var(--grey_2);
+  border-radius: 4px;
+  width: 80%;
+  max-width: 360px;
+  padding: 25px 15px;
+}
+
+.Total > h3 {
+  color: var(--grey_4);
+  margin-bottom: 10px;
+}
+
+.Total > p {
+  color: var(--primary_1);
+  margin-bottom: 8px;
+}
+
+@media (min-width: 800px) {
+  .TotalContainer {
+    width: 360px;
+    padding: 38px 24px;
+  }
+
+  .Total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,19 @@
+.ContainerNoCard {
+  width: 80%;
+  max-width: 360px;
+}
+
+.ContainerNoCard > h3 {
+  margin-bottom: 20px;
+}
+
+.ContainerNoCard > img {
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .ContainerNoCard {
+    width: 100%;
+    max-width: 560px;
+  }
+}

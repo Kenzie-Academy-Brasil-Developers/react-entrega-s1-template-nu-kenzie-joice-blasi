@@ -1,0 +1,74 @@
+.LandingPage {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--grey_4);
+}
+
+.MainContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.PresentationContainer {
+  color: var(--grey_1);
+  max-width: 400px;
+  text-align: center;
+}
+
+.Logo {
+  margin-bottom: 30px;
+}
+
+.MainContainer h1 {
+  margin-bottom: 30px;
+}
+
+.MainContainer p {
+  margin-bottom: 28px;
+}
+
+.MainContainer button {
+  background-color: var(--primary_1);
+  color: var(--grey_1);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 14.5px 90px;
+}
+
+.MainContainer button:hover {
+  background-color: var(--primary_2);
+}
+
+.ContainerImage {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .MainContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .PresentationContainer {
+    text-align: start;
+  }
+
+  .ContainerImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  .ContainerImage img {
+    width: 100%;
+  }
+}

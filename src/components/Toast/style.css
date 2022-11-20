@@ -1,0 +1,15 @@
+.Toast {
+  position: absolute;
+  border-radius: 8px;
+  width: 200px;
+  padding: 20px;
+  right: 30px;
+  bottom: 50px;
+  background-color: var(--primary_2);
+  text-align: center;
+  box-shadow: 0px 0px 18px 9px rgba(253, 122, 122, 0.4);
+}
+
+.Toast p {
+  color: var(--grey_1);
+}

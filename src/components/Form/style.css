@@ -1,0 +1,119 @@
+.FormContainer {
+  border: 1px solid var(--grey_2);
+  border-radius: 4px;
+  width: 80%;
+  max-width: 360px;
+  padding: 25px 15px;
+  margin-bottom: 20px;
+}
+
+.FormContainer > label {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.FormContainer > input {
+  width: 100%;
+  max-width: 360px;
+}
+
+.FormContainer > p {
+  color: var(--grey_3);
+  margin-top: 4px;
+}
+
+.FormContainer > div {
+  margin: 19px 0;
+}
+
+.ContainerValue {
+  width: 100%;
+}
+
+.ContainerValue > label {
+  display: block;
+}
+
+.ContainerValue > input {
+  margin-top: 9px;
+  width: 83%;
+  background-color: var(--grey_1);
+  border: 1px solid var(--grey_1);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 11px;
+}
+
+.ContainerValue > span {
+  background-color: var(--grey_1);
+  border: 1px solid var(--grey_1);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 11px;
+  color: var(--grey_4);
+}
+
+.ContainerType {
+  width: 100%;
+  margin-top: 19px;
+}
+
+.ContainerType > p {
+  margin-bottom: 9px;
+}
+
+.ContainerType > select {
+  width: 100%;
+  background-color: var(--grey_1);
+  border: 1px solid var(--grey_1);
+  border-radius: 8px;
+  padding: 11px;
+  color: var(--grey_4);
+}
+
+.ContainerType > select > option {
+  background-color: var(--grey_1);
+  color: var(--grey_4);
+}
+
+.FormContainer > button {
+  background-color: var(--primary_1);
+  color: var(--grey_1);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 14.5px 0;
+  width: 100%;
+  max-width: 360px;
+}
+
+.FormContainer > button:hover {
+  background-color: var(--primary_2);
+}
+
+@media (min-width: 800px) {
+  .FormContainer {
+    width: 360px;
+    padding: 38px 24px;
+  }
+
+  .FormContainer > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .ContainerValue {
+    width: 45%;
+  }
+
+  .ContainerValue > input {
+    width: 60%;
+  }
+
+  .ContainerType {
+    width: 45%;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,14 @@
+.ContainerList {
+  width: 80%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (min-width: 800px) {
+  .ContainerList {
+    width: 100%;
+    max-width: 560px;
+  }
+}

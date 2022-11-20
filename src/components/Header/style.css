@@ -1,0 +1,25 @@
+.ContainerBorder {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
+}
+
+.HeaderContainer {
+  height: 88px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HeaderContainer > button {
+  background-color: var(--grey_2);
+  color: var(--grey_4);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.HeaderContainer > button:hover {
+  background-color: var(--grey_1);
+}

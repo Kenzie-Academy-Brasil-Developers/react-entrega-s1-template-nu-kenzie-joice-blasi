@@ -1,0 +1,29 @@
+.title_1 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.title_2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.title_3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.title_4 {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.headline {
+  font-weight: regular;
+  font-size: 16px;
+}
+
+.body {
+  font-weight: regular;
+  font-size: 12px;
+}

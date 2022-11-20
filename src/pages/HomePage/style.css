@@ -1,0 +1,14 @@
+.HomePage {
+  background-color: #ffffff;
+}
+
+@media (min-width: 800px) {
+  .CompleteContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ContainerRight {
+    width: 60%;
+  }
+}

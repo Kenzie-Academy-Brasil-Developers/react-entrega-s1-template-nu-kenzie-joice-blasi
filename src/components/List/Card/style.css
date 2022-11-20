@@ -1,0 +1,39 @@
+.CardContainer {
+  background-color: var(--grey_1);
+  border-radius: 8px;
+  padding: 8px 15px;
+}
+
+.CardEntry {
+  border-left: 4px solid var(--secondary);
+}
+
+.CardOutput {
+  border-left: 4px solid var(--grey_2);
+}
+
+.CardContainer > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.CardContainer > div > h3 {
+  width: 60%;
+}
+
+.ContainerValueDelete {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ContainerValueDelete > button {
+  cursor: pointer;
+  height: 22px;
+  width: 22px;
+  border: none;
+  border-radius: 4px;
+}
